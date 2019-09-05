@@ -15,7 +15,7 @@ variable "target_tags" {
   type = "list"
   description = "The name of the protocol to allow. This value can either be one of the following well known protocol strings (tcp, udp, icmp, esp, ah, sctp), or the IP protocol number, or all"
 } */
-variable "ports" {
+/* variable "ports" {
   type = "list"
   description = "List of ports and/or port ranges to allow. This can only be specified if the protocol is TCP or UDP"
-}
+} */

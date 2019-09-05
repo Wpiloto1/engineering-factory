@@ -6,7 +6,6 @@ resource "google_compute_firewall" "fw-rule" {
 
   allow {
     protocol = "tcp"
-    ports    = "${var.ports}"
   }
   target_tags   = ["${var.name}"]
   source_ranges = "${var.source_ranges}"
